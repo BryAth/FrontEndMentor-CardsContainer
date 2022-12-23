@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+/* font-family: 'Big Shoulders Display', cursive;
+
+font-family: 'Lexend Deca', sans-serif; */
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232323;
+}
+
+.container{
+    width: 1440px;
+    height: 800px;
+    background-color: #F2F2F2;
+    display: flex;
+    
+}
+
+.card:nth-child(1){
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius : 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+
+.card:nth-child(2){
+    background: hsl(184, 100%, 22%);
+}
+.card:nth-child(3){
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius : 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card{
+    width: 305px;
+    height: 500px;
+   
+    color:white;
+    
+}
+
+.card .content{
+    margin-left: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+   
+}
+
+
+.card .content img{
+    margin-top: 45px;
+}
+
+.card .content h2{
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 40px;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.card .content p {
+    margin-top: 20px;
+    opacity: 0.8;
+    width: 79%;
+    line-height: 25px;
+    font-size: 14px;
+    
+}
+
+.card .content button{
+    background-color: white;
+    border: 1px solid white;
+   border-radius: 20px;
+    width: 150px;
+    height: 45px;
+    margin-top: 85px;
+    opacity: 1;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    
+}
+.wrap{
+    margin: 170px 260px;
+    display: flex;
+}
+
+.card:nth-child(1) .content button{
+    color:hsl(31, 77%, 52%);
+}
+.card:nth-child(2) .content button{
+    color: hsl(184, 100%, 22%);
+}
+.card:nth-child(3) .content button{
+    color:hsl(179, 100%, 13%);
+}
+
+.card .content button:hover{
+    background-color: transparent;
+    color:white;
+    border: 1px solid white;
+}
